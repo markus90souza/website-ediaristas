@@ -14,7 +14,7 @@ export default class MyDocument extends Document {
           <link rel="preconnect" href="https://fonts.gstatic.com"  />
           <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" 
             rel="stylesheet" />
-          <meta name="theme-color" content={theme.palette.primary.main} />
+        
       
           <link
             rel="stylesheet"
@@ -23,6 +23,8 @@ export default class MyDocument extends Document {
 
           <link rel="stylesheet" 
                 href="/fonts/tw-icons/css/treinaweb-icons.css" />
+
+<meta name="theme-color" content={theme.palette.primary.main} />
           <meta name="emotion-insertion-point" content="" />
           {(this.props as any).emotionStyleTags}
         </Head>
