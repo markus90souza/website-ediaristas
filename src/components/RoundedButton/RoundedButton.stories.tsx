@@ -14,8 +14,5 @@ const Template: ComponentStory<typeof RoundedButton> = (args) => (
 
 export const Default = Template.bind({});
 Default.args = {
-    variant: 'contained',
+    variant: 'contained'
 };
-
-
-
